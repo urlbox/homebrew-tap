@@ -11,7 +11,7 @@ class Urlbox < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.0/urlbox_0.1.0_darwin_amd64.tar.gz"
-      sha256 "369c1774d47c5677a479cf2e4f422f17a705f7cd04ce4317b6275e14a708caa7"
+      sha256 "9146e5f9e969c0931e0eb744d53edf4d2d5b9e876c2a0ff4b6a920d9f018b14e"
 
       define_method(:install) do
         bin.install "urlbox"
@@ -19,7 +19,7 @@ class Urlbox < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.0/urlbox_0.1.0_darwin_arm64.tar.gz"
-      sha256 "0179bb346c84b97a2318f67a89db69e5fdea0081a17a0ad3d3c7058e80f583f9"
+      sha256 "42ba1ae7c938ae53db0f0d8cddb57d9843b4654454f5f8a879b752dae8e618c0"
 
       define_method(:install) do
         bin.install "urlbox"
@@ -30,14 +30,14 @@ class Urlbox < Formula
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
       url "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.0/urlbox_0.1.0_linux_amd64.tar.gz"
-      sha256 "ae094358e62c0ce044d05a81f6dbbeb0b6eae58be2fd65d03f46ba0900445ab1"
+      sha256 "28ddff0b2540390ca0a572b4e941c269feda84bfd959728e2face57b47cd206d"
       define_method(:install) do
         bin.install "urlbox"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.0/urlbox_0.1.0_linux_arm64.tar.gz"
-      sha256 "8a4bec64f6cb5351bba90a9e4aa7101e13fdbcdc3e6c8eb452dcddde89941db9"
+      sha256 "b8dec031982f39fafa19d9c6c833dda8a92355ca54d8eb0ab720605566e2db86"
       define_method(:install) do
         bin.install "urlbox"
       end
