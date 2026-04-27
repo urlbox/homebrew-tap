@@ -1,19 +1,19 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.0/urlbox_0.1.0_windows_amd64.zip",
+            "url": "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.1/urlbox_0.1.1_windows_amd64.zip",
             "bin": [
                 "urlbox.exe"
             ],
-            "hash": "d2b846a941642769751698b35680c946509f58b328b4d5b4042ed39b97dfb564"
+            "hash": "70bb4e45cd8d94d4bf4e55c87a1a18babf4ae52b2ddd1619631efd13e38f940a"
         },
         "arm64": {
-            "url": "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.0/urlbox_0.1.0_windows_arm64.zip",
+            "url": "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.1/urlbox_0.1.1_windows_arm64.zip",
             "bin": [
                 "urlbox.exe"
             ],
-            "hash": "0b14d5f864a1561cdd4cd2c198c5fd2250933622bd38bb94debb562c6493b43a"
+            "hash": "5142ab80ad3eb1359238c569f526c1aafc215df6c8096381fa61892152fcdd00"
         }
     },
     "homepage": "https://urlbox.com",
