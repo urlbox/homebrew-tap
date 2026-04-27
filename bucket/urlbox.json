@@ -6,14 +6,14 @@
             "bin": [
                 "urlbox.exe"
             ],
-            "hash": "1158eb21a4495b9067285a5015342c074ec8a2286388b0a46393ca11a33af86a"
+            "hash": "d062893506ee5da00abc0b9dbf5064a9aa080799f326c2615372bcc8bd5fface"
         },
         "arm64": {
             "url": "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.0/urlbox_0.1.0_windows_arm64.zip",
             "bin": [
                 "urlbox.exe"
             ],
-            "hash": "2707d4c6b69bf185ed2320aabd092ac8207a9e2332711a805f76203239a9f8ca"
+            "hash": "97ced1e72567987c4a91ef242384a1156d407a0b0736d4c73d74a8d61e6de63c"
         }
     },
     "homepage": "https://urlbox.com",
