@@ -4,22 +4,22 @@ cask "urlbox" do
 
   on_macos do
     on_intel do
-      sha256 "c071b3608ebbb0e735527dedf6253ed11b3b493d7e0a1a9674e1dfc97cf119c8"
+      sha256 "2c5f510b094253e07feb081255f956b76b9d0209cdbda8184fd5a1fa8c5e331f"
       url "https://github.com/urlbox/urlbox-cli/releases/download/v#{version}/urlbox_#{version}_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "93e251fd489e468c2e031810776362a82ba9214aa5b15b0595412b582dde4a43"
+      sha256 "94d2c18e8f1619d0b2871935c10929f65bc3a13548ec66dbaa8ced05b3babd6d"
       url "https://github.com/urlbox/urlbox-cli/releases/download/v#{version}/urlbox_#{version}_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "d38793664dbc2215b4710c4edac3b12e2533c303895c56ec902d38ba74abb6dc"
+      sha256 "153092208f0794a68e4a904889ff4fbb0e182ae960b5c05184945fcb00e0e339"
       url "https://github.com/urlbox/urlbox-cli/releases/download/v#{version}/urlbox_#{version}_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "34f395b98f4fd7804f1e2cf3b01afc9e296f01d1ed05f373465622049ea45179"
+      sha256 "a9d950775dff4babaa06cc61692b56ba4ea270ec0343b36537655f505b1af0ed"
       url "https://github.com/urlbox/urlbox-cli/releases/download/v#{version}/urlbox_#{version}_linux_arm64.tar.gz"
     end
   end
