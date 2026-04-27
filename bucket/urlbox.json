@@ -1,0 +1,22 @@
+{
+    "version": "0.1.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.0/urlbox_0.1.0_windows_amd64.zip",
+            "bin": [
+                "urlbox.exe"
+            ],
+            "hash": "2062d68b878ccf3b3ee74e356db0173fa438858fe8d45e827d895576c386ed13"
+        },
+        "arm64": {
+            "url": "https://github.com/urlbox/urlbox-cli/releases/download/v0.1.0/urlbox_0.1.0_windows_arm64.zip",
+            "bin": [
+                "urlbox.exe"
+            ],
+            "hash": "f5165b82bdbf5deafaf75d65837891541137ab2de065e5c4e2e9c10f57c3f616"
+        }
+    },
+    "homepage": "https://urlbox.com",
+    "license": "MIT",
+    "description": "Official CLI for the Urlbox screenshot and web automation API"
+}
