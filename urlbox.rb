@@ -5,21 +5,21 @@
 class Urlbox < Formula
   desc "Official CLI for the Urlbox screenshot and web automation API"
   homepage "https://urlbox.com"
-  version "0.2.0"
+  version "0.3.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/urlbox/urlbox-cli/releases/download/v0.2.0/urlbox_0.2.0_darwin_amd64.tar.gz"
-      sha256 "d099af8f64d158cd4303bf140bc3744eec3306b968408bd2f6884d4d0bfebc0e"
+      url "https://github.com/urlbox/urlbox-cli/releases/download/v0.3.0/urlbox_0.3.0_darwin_amd64.tar.gz"
+      sha256 "a99e19c2d28b69bc653d5986b6d8784be6b21fc53a5a9999fec1677deba84669"
 
       define_method(:install) do
         bin.install "urlbox"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/urlbox/urlbox-cli/releases/download/v0.2.0/urlbox_0.2.0_darwin_arm64.tar.gz"
-      sha256 "61cd0c50a5a7d89de58d9f5de958ed0c1f9bc998ecac2dbb73f5e57584bda6ce"
+      url "https://github.com/urlbox/urlbox-cli/releases/download/v0.3.0/urlbox_0.3.0_darwin_arm64.tar.gz"
+      sha256 "f4608ec7072061effa495da7d065f2f67d3661c37553a0e8de86ba40d09f2f68"
 
       define_method(:install) do
         bin.install "urlbox"
@@ -29,15 +29,15 @@ class Urlbox < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/urlbox/urlbox-cli/releases/download/v0.2.0/urlbox_0.2.0_linux_amd64.tar.gz"
-      sha256 "90f3832245a9c7e483ff8f1c17cc914b9bdceba329c9157ba6a9fd896c90cd7a"
+      url "https://github.com/urlbox/urlbox-cli/releases/download/v0.3.0/urlbox_0.3.0_linux_amd64.tar.gz"
+      sha256 "8a61695cadafed2076c09eaf594aaa512201a80a2065b2a6ed4e512f1d894f02"
       define_method(:install) do
         bin.install "urlbox"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/urlbox/urlbox-cli/releases/download/v0.2.0/urlbox_0.2.0_linux_arm64.tar.gz"
-      sha256 "4a8a9954b223b200aa774a884ee3022dd3861da1cb21cd3012cbc11dab8fa629"
+      url "https://github.com/urlbox/urlbox-cli/releases/download/v0.3.0/urlbox_0.3.0_linux_arm64.tar.gz"
+      sha256 "8b3ebec2ba0ce635cf16a62b8a4b9cc846363fc201d04ff30c96936356c6ad96"
       define_method(:install) do
         bin.install "urlbox"
       end
